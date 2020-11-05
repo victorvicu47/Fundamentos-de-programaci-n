@@ -19,8 +19,18 @@
  */
 int main(int argc, char** argv) {
 
-    printf("hola mundo");
+    float res1 = 1.0;
+    float res2 = 2.0;
+    float res3 = 3.0;        
     
-    return (EXIT_SUCCESS);
+    res1=((6.18/5.0) * (pow(((14.1-4)/2),2)));
+    res2=((8.9*34)/17);
+    res3=(8-7);
+    
+    printf("El primer resultado es%f/n", res1);
+    printf("El segundo resultado es%f/n", res2);
+    printf("El tercer resultado es%f/n", res3);
+    
+    return (0);
 }
 
