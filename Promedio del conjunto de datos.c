@@ -16,12 +16,11 @@ int main(int argc, char** argv) {
         printf("Ingrese el nuevo valor: ");
         scanf("&d",&arreglo[x]);
     }
-    
     x = 0;
-    
-    for (x; x<n; x++){
-        printf("\n%d",arreglo[x]);
+    for (x; x<n; x++){ 
+        suma = suma + arreglo[x];
     }
-    return (0);
+    printf("\nel promedio en %f: ", suma/n);
+    return (0)
 }
 
