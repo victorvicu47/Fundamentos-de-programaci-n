@@ -1,11 +1,22 @@
-#ifndef CABECERAH
-#define CABECERAH
-#include <stdio.h>
+#ifndef CABECERA_H
+#define CABECERA_H
 
-int suma(int a, int b);
-int resta(int a, int b);
-char Primer_caracter(char* cadena);
-double Area_triangulo(int altura);
-
-float altura;
+#ifdef __cplusplus
+extern "C" {
 #endif
+
+int suma( int a, int b);
+int resta (int a, int b);
+char primer_caracter(char* cadena);
+double area_circulo (int radio);
+
+//Declaracion Variables
+float PI;
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* CABECERA_H */
+
